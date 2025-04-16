@@ -2,6 +2,10 @@ import cv2
 import os
 from datetime import datetime
 
+###################################################
+#         brief:将一个视频的每一帧都保存为照片         #
+###################################################
+
 # 设置输入视频路径和输出图片保存路径
 video_path = '/home/xu/兑换站/蓝色方.avi'  # 替换为你的视频文件路径
 output_folder = '/home/xu/兑换站/duihuanzhanpic'  # 替换为你希望保存图片的文件夹路径
